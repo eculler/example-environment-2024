@@ -1,0 +1,22 @@
+name: example-env
+channels:
+  - conda-forge
+  - defaults
+
+dependencies:
+  - python=3.11
+  - pip
+
+  # Data structures
+  - pandas
+  - xarray
+
+  # Geospatial data packages
+  - geopandas
+  - pyogrio
+  - rioxarray
+
+  # Plotting
+  - holoviews
+  - geoviews>=1.10
+  - hvplot
