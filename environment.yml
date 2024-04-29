@@ -22,4 +22,4 @@ dependencies:
   - hvplot
 
   # Machine learning
-  - scikit-lean
+  - scikit-learn
