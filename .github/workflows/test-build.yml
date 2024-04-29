@@ -3,8 +3,6 @@ on:
   push:
     paths:
       - environment.yml
-    branches:
-      - main
   workflow_dispatch:
 
 jobs:
